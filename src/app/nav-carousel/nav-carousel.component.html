@@ -1,0 +1,29 @@
+<div class="content">
+  <ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="/assets/img/game.jfif" height="450px" width="100%" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>PC Game Pass</h3>
+        <p>Unlock 100+ great games and EA Play, plus get your 
+          first month for ₱49. Offer available to new subscribers only.</p>
+          <button class="btn btn-primary">Join now</button>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="/assets/img/laptop.jfif" height="450px" width="100%" alt="Random second slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>Designed for life
+          today-and tomorrow
+        </h3>
+        <p>
+          The next-generation of games. Your goals. Friends and family. 
+          Windows 11 was made to bring you closer to everything you love.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>
+

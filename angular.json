@@ -18,11 +18,12 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": [
+            /*"assets": [
               "src/favicon.ico",
               "src/assets"
-            ],
+            ],*/
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -97,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "d05839c9-78b5-49cc-8284-873e7eab0bce"
   }
 }
